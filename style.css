@@ -1,0 +1,132 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+background-image: url(./animal-images-baby-animals-cool-pictures-cute-animals-wallpaper-preview.jpg);
+ background-repeat: no-repeat;
+ background-position: center center;
+background-size: cover;
+height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #e325fc;
+}
+
+button {
+  padding: 12px 18px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  gap: 12px;
+}
+
+li:hover {
+  background: #f0f0f0;
+}
+
+.check-icon {
+  font-size: 20px;
+  color: #28a745;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.check-icon:hover {
+  transform: scale(1.2);
+}
+
+.task-text {
+  flex: 1;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+li.completed .task-text {
+  text-decoration: line-through;
+  color: #999;
+  font-style: italic;
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li button:hover {
+  background-color: #cc0000;
+}
